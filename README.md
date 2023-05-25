@@ -31,3 +31,6 @@ If you have anykind of troubles, please be aware that you can write me through f
 Please follow the instructions on the top of the **index.js** and dont hesitate to ask.
 
 Miguel Figuera.
+
+
+P.D: the photo is a free one from unplash.com
