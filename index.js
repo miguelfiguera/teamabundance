@@ -69,7 +69,7 @@ const ThirdStep = {
 
 
 const addTextFirstPart=(()=>{
-
+let header=document.getElementById('Page-Title')
 let title=document.getElementById('Title-1')
 let h3=document.getElementById('h3-1')
 let button=document.getElementById('button-1')
@@ -77,6 +77,7 @@ let button=document.getElementById('button-1')
 title.innerText=FirstStep.title
 h3.innerText=FirstStep.h3
 button.innerText=FirstStep.button
+header.innerText=Header.pageTitle
 })();
 
 const addTextSecondPart=(()=>{

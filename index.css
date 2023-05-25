@@ -1,3 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Merriweather&family=Press+Start+2P&family=Raleway:wght@100;200;300;500;700&family=Roboto:wght@400;700&family=Space+Grotesk:wght@300;400&display=swap');
+
+:root{
+    font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    scale:1.5;
+    transform-box: fill-box;
+    width: calc(100% / 1.5);
+}
+
+header{
+    justify-content: center;
+    background: rgb(6,16,144);
+background: linear-gradient(61deg, rgba(6,16,144,1) 6%, rgba(29,99,182,1) 51%, rgba(6,16,144,1) 93%);
+    
+}
+
+h3,h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
 a{
     scale:1.25;
 }
