@@ -26,7 +26,7 @@ Note: You will see that some text is inside '' and some text is inside "".  this
 
 5. upload the copy. wait for 2 minutes and check the page link. It should show the new content.
 
-If you have anykind of troubles, please be aware that you can write me through fiverr with no aditional cost the first 25 times. Yeah, 25 times. I know this can be confusing and I understand that, all the interaction inside a fix are counted as one (if the code has been changed by mistake, aestethics changes will requiere billing).
+If you have anykind of troubles, please be aware that you can write me through fiverr with no aditional cost the first 25 times. Yes, 25 times. I know this can be confusing and I understand that so you have up to 25 fixes for accidental changes. All the interaction inside a fix are counted as one (if the code has been changed by mistake, aestethics changes will requiere billing after the order is accepted).
 
 Please follow the instructions on the top of the **index.js** and dont hesitate to ask.
 
