@@ -19,6 +19,9 @@ Easy Steps:
 
 3. Find what text do you want to change, do it inside the quotation marks.
 
+Note: You will see that some text is inside '' and some text is inside "".  this happens for a reason: if you use "" inside '' like this 'I am "miguel figuera"' everything works fine. but if you do 'I'm 'miguel figuera'' the code will break. (It can be fixed). The same way "I'm 'miguel figuera'" will work jut fine. **A group of quotation marks can be inside a different group of quotation marks but not inside the same group.**
+
+
 4. Save the file with the same name. Open github.com/miguelfiguera/teamabundance and add the new copy, it will replace the previous one.
 
 5. upload the copy. wait for 2 minutes and check the page link. It should show the new content.
