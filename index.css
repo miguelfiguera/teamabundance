@@ -21,16 +21,6 @@ h1{
     animation: Revelio ease-in 1s forwards
 }
 
-h1:hover{
-    animation: Scalix 1s forwards;
-}
-
-@keyframes Scalix {
-    100%{
-        scale: 1.8;
-    }
-    
-}
 
 @keyframes Revelio {
     0%{
@@ -113,8 +103,8 @@ h3,h2{
 }
 
 body{
-    background: rgb(12,22,142);
-background: linear-gradient(90deg, rgba(12,22,142,1) 0%, rgba(6,110,235,1) 50%, rgba(12,22,142,1) 100%);
+    background: rgb(4,9,68);
+background: linear-gradient(90deg, rgba(4,9,68,1) 0%, rgba(3,47,101,1) 50%, rgba(4,9,68,1) 100%);
 }
 
 a{
