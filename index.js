@@ -1,4 +1,4 @@
-// BEFORE  CHANGING ANYTHING GO TO THE README.md FILE.
+// BEFORE CHANGING ANYTHING GO TO THE README.md FILE.
 // Hello mark, this are the instructions, you can change any wording of the document here if it is between quotation marks.
 // You will see that they have this format {ItemName: "Your Text to be shown"}
 // You cannot change the ItemName before the : but you can change any text between the Quotation Marks
@@ -18,7 +18,7 @@ const FirstStep = {
 };
 
 const SecondStep = {
-  title: "STEP 2:",
+  title: "STEP 2",
   h3: "Watch the Two Training Videos below: ",
   strong: "Make Sure",
   text: "to Watch The 1st and 2nd Videos before you watch the live recorded session on the 5 day free training.",
@@ -29,7 +29,7 @@ const SecondStep = {
 };
 
 const ThirdStep = {
-  title: "STEP 3:",
+  title: "STEP 3",
   h3: "Register for your free 5 day Live Training Sessions: ",
   text: "Register for LIVE Sessions that allow you to literally see EVERYTHING in the Group Training FREE for 5 days. This Trial Starts Monday May 22 ",
   text2:
@@ -69,7 +69,7 @@ const ThirdStep = {
 
 
 const addTextFirstPart=(()=>{
-let header=document.getElementById('Page-Title')
+let theHeader=document.getElementById('Page-Title')
 let title=document.getElementById('Title-1')
 let h3=document.getElementById('h3-1')
 let button=document.getElementById('button-1')
@@ -77,7 +77,7 @@ let button=document.getElementById('button-1')
 title.innerText=FirstStep.title
 h3.innerText=FirstStep.h3
 button.innerText=FirstStep.button
-header.innerText=Header.pageTitle
+theHeader.innerText=Header.pageTitle
 })();
 
 const addTextSecondPart=(()=>{
@@ -136,3 +136,10 @@ nextWeekPassword.innerText=ThirdStep.nextWeekPassword
 text6.innerText=ThirdStep.warningTet
 text5.innerText=ThirdStep.text7
 })();
+
+
+const div1=document.getElementById('step-1')
+const div2=document.getElementById('step-2')
+const div3=document.getElementById('step-3')
+
+

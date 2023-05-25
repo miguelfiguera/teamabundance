@@ -11,19 +11,99 @@ font-family: 'Space Grotesk', sans-serif;
 }
 
 
+
 h1{
     font-family: sans-serif;
     font-weight: bolder;
     scale:1.5;
     transform-box: fill-box;
     width: calc(100% / 1.5);
+    animation: Revelio ease-in 1s forwards
+}
+
+h1:hover{
+    animation: Scalix 1s forwards;
+}
+
+@keyframes Scalix {
+    100%{
+        scale: 1.8;
+    }
+    
+}
+
+@keyframes Revelio {
+    0%{
+        opacity: 0;
+        filter: blur(5);
+        scale: 0.7;
+    }
+
+    100%{
+        opacity:1;
+        filter: blur(0);
+        scale: 1.5;
+        width: calc(100% / 1.5);
+    }
+    
+}
+
+div#step-1,div#step-2,div#step-3{
+    opacity: 0;
+
+    animation: RevelioNoScale 1s forwards;
+}
+
+div#step-2{
+opacity: 0;
+animation-delay: 1s;
+}
+
+div#step-3{
+    opacity: 0;
+
+    animation-delay: 2s;
+
+}
+
+@keyframes RevelioNoScale {
+    0%{
+        opacity: 0;
+        filter: blur(5);
+        scale: 0.7;
+    }
+
+    100%{
+        opacity:1;
+        filter: blur(0);
+        scale: 1;
+    }
+    
+}
+
+.visible{
+    animation: appear forwards 1s ease
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        filter: blur(5);
+        scale: 0.7;
+    }
+
+    100%{
+        opacity:1;
+        filter: blur(0);
+        scale:1;
+    }
+    
+    
 }
 
 header{
     justify-content: center;
-    background: rgb(6,16,144);
-background: linear-gradient(61deg, rgba(6,16,144,1) 6%, rgba(29,99,182,1) 51%, rgba(6,16,144,1) 93%);
-    
+
 }
 
 h3,h2{
@@ -32,6 +112,26 @@ h3,h2{
 
 }
 
+body{
+    background: rgb(12,22,142);
+background: linear-gradient(90deg, rgba(12,22,142,1) 0%, rgba(6,110,235,1) 50%, rgba(12,22,142,1) 100%);
+}
+
 a{
     scale:1.25;
+}
+
+a:hover{
+    animation: hover forwards 1s ease
+}
+
+@keyframes hover {
+    100%{
+        scale:1.5
+    }
+    
+}
+
+p,strong{
+    display:inline;
 }
