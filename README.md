@@ -38,7 +38,8 @@ Note: You will see that some text is inside '' and some text is inside "".  this
 
 ![the window](pictureforexplanation.png)
 
-4. Look for this icon on the right -->
+4. Look for this icon on the right part of the screen (just above the text of the file).
+
 ![some icons](icons.png)
 
 5. Click the one that looks like a pencil/pen.
